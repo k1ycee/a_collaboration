@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "746502579065",
+    "firebase_url": "https://idium-7a911.firebaseio.com",
+    "project_id": "idium-7a911",
+    "storage_bucket": "idium-7a911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746502579065:android:6b89153b34383d0a94c5a8",
+        "android_client_info": {
+          "package_name": "com.example.firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746502579065-rp4h2ubi3638imqj6rrqi6a8eq80rv8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_app",
+            "certificate_hash": "c5ec67e35a73be4719d0d246ecc8e032d4d68a7a"
+          }
+        },
+        {
+          "client_id": "746502579065-gqn9o465gjbfoobgq2qvba4abj0ssfoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4J6cZ0aaoGJG2pNp0wtagCwqgNOORh_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746502579065-gqn9o465gjbfoobgq2qvba4abj0ssfoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

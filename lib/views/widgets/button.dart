@@ -21,7 +21,7 @@ class _CustomOutButtonState extends State<CustomOutButton> {
       child: MaterialButton(
         splashColor: Colors.black,
         height: 50,
-        shape: OutlineInputBorder(borderSide: BorderSide(color: Colors.white)),
+        shape: OutlineInputBorder(borderSide: BorderSide(color: widget.color)),
         onPressed: widget.onPressed,
         child: Center(child: widget.label,),
         // color: widget.color,
@@ -30,30 +30,3 @@ class _CustomOutButtonState extends State<CustomOutButton> {
   }
 }
 
-class CustomFilledButton extends StatefulWidget {
-
-  final Function onPressed;
-  final Color color;
-  final Text label;
-
-  const CustomFilledButton({Key key, this.onPressed, this.color, this.label}) : super(key: key);
-
-  @override
-  _CustomFilledButtonState createState() => _CustomFilledButtonState();
-}
-
-class _CustomFilledButtonState extends State<CustomFilledButton> {
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20.0),
-      child: MaterialButton(
-        elevation: 0.5,
-        height: 50,
-        onPressed: widget.onPressed,
-        child: Center(child: widget.label,),
-        color: widget.color,
-      ),
-    );
-  }
-}

@@ -15,6 +15,8 @@ class FireStore{
 
   final StreamController <List<UserPost>> _userPostStream = StreamController <List<UserPost>>.broadcast();
   final StreamController <List<Viewers>> _viewerStream = StreamController <List<Viewers>>.broadcast();
+  final StreamController <List<User>> _userStream = StreamController <List<User>>.broadcast();
+
 
   
   Future createUser(User user)async{
